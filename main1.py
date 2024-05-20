@@ -4,7 +4,7 @@ from discord.ext import commands
 import os
 import requests
 
-token = os.environ['TOKEN']
+token = os.environ['DISCORD_TOKEN']
 
 bot = commands.Bot(intents=discord.Intents.all(),)
 
