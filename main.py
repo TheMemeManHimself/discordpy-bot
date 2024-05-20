@@ -129,5 +129,4 @@ class avatar(commands.Cog):
       desc=fetch_description(id)
       embed = discord.Embed(
 
-if __name__ == '__main__':
-  bot.run(token)
+bot.run(token)
